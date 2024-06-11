@@ -25,7 +25,7 @@ class my_third_bird : AppCompatActivity() {
         }
         Picasso
             .get()
-            .load("https://media.istockphoto.com/id/673375228/photo/nicobar-pigeon-bronx-zoo-nyc.jpg?s=612x612&w=0&k=20&c=tg4LPisrnr4YdP2E2qgTBDsE7z5KTudHOyald44EBJ0=")
+            .load("https://media.istockphoto.com/id/1634032086/photo/purple-finch-photo-and-image-finch-close-up-front-view-perched-on-a-branch-with-a-soft-brown.jpg?s=612x612&w=0&k=20&c=ZpSuKPceCGtXptFBSbdWwtXhgfGPZteYxXl_DxxYpLE=")
             .into(binding.imageView3)
     }
 }

@@ -26,7 +26,7 @@ class my_second_bird : AppCompatActivity() {
         }
         Picasso
             .get()
-            .load("https://media.istockphoto.com/id/172941521/photo/soon-eagle.jpg?s=612x612&w=0&k=20&c=aXdX6Vzh5FCfFCkSl9TXChiqwFbSxaXpR1zOPLb1iaU=")
+            .load("https://media.istockphoto.com/id/484848504/photo/yellow-naped-amazon-amazona-auropalliata.jpg?s=612x612&w=0&k=20&c=ddZ80hijelkaGDph1j_GiZE79Xk3gZqT_gcfn0gEAxI=")
             .into(binding.imageView2)
     }
 }

@@ -26,7 +26,7 @@ class my_fourth_bird : AppCompatActivity() {
         }
         Picasso
             .get()
-            .load("https://images.unsplash.com/photo-1612024782955-49fae79e42bb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBhcnJvdHxlbnwwfHwwfHx8MA%3D%3D")
+            .load("https://media.istockphoto.com/id/1441187813/photo/front-view-of-blue-peacock-with-colorful-open-feathers.jpg?s=612x612&w=0&k=20&c=QMVECId8DY8xlQXqVzsAS1gM67Q6ZfbwJzvyjTldlRk=")
             .into(binding.imageView4)
 
     }

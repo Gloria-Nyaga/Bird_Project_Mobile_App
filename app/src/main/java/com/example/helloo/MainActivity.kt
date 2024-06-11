@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         Picasso
             .get()
-            .load("https://media.istockphoto.com/id/178434947/photo/barn-owl.jpg?s=612x612&w=0&k=20&c=kUcXmLvU3oJoCVeCc8FbE-t4B4owlPX3xwljy3xCDkI=")
+            .load("https://media.istockphoto.com/id/517377711/photo/flamingo.jpg?s=612x612&w=0&k=20&c=424TcoirXoOOeljXGQb4Bq0OjE6d1q54t_RgHdR_Ck0=")
             .into(binding.imageView)
 
     }

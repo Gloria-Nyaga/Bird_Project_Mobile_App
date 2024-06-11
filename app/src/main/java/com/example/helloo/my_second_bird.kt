@@ -16,12 +16,12 @@ class my_second_bird : AppCompatActivity() {
         binding = ActivityMySecondBirdBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnPrev.setOnClickListener {
-            val intent = Intent(this, ActivityMainBinding::class.java)
-            finish()
-        }
-        binding.btnNext2.setOnClickListener{
+        binding.btnNext2.setOnClickListener {
             val intent = Intent(this, my_third_bird::class.java)
+            startActivity(intent)
+        }
+        binding.btnPrev.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
         Picasso

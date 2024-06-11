@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import com.example.helloo.databinding.ActivityMainBinding
 import com.example.helloo.databinding.ActivityMyThirdBirdBinding
 import com.squareup.picasso.Picasso
 
@@ -16,11 +17,12 @@ class my_third_bird : AppCompatActivity() {
         binding = ActivityMyThirdBirdBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnPrev2.setOnClickListener {
-            finish()
-        }
         binding.btnNext3.setOnClickListener {
             val intent = Intent(this, my_fourth_bird::class.java)
+            startActivity(intent)
+        }
+        binding.btnPrev2.setOnClickListener {
+            val intent = Intent(this, my_second_bird::class.java)
             startActivity(intent)
         }
         Picasso

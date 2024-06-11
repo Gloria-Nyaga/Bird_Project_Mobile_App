@@ -40,7 +40,7 @@
         android:layout_height="99dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.927"
+        app:layout_constraintHorizontal_bias="0.983"
         app:layout_constraintStart_toEndOf="@+id/btnPrev2"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/right_arrow_backup_2_svgrepo_com" />
@@ -49,7 +49,6 @@
         android:id="@+id/btnPrev2"
         android:layout_width="87dp"
         android:layout_height="106dp"
-        android:layout_marginStart="16dp"
         app:layout_constraintBottom_toBottomOf="@+id/btnNext3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/btnNext3"
